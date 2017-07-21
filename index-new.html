@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Wyłączenie automatycznego formatowania numeru telefonu w MS EDGE -->
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- FontAwesome - źródło ikonek -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- GOOGLE WEB FONTS - Open Sans -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:300,400,600&subset=latin,latin-ext' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700&subset=latin,latin-ext' rel='stylesheet'>
+
+    <!-- lokalny CSS -->
+    <link rel="stylesheet" href="css/local.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Dombud - firma budowlana</title>
+
+</head>
+
+<body>
+
+    <div class="container-fluid" id="top_page_container">
+        <div id="top_page_bar">
+            <div class="container">
+                <div id="numer_telefonu">
+                    <p>62-510 Konin, ul. Letnia 123, tel. 600 123 456</p>
+                </div>
+
+                <div id="search_form_top">
+                    <form class="form-inline">
+                        <input type="text" class="form-control" id="search_input_1" placeholder="wyszukaj...">
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>&nbsp;</button>
+                    </form>
+                </div>
+
+                <div id="ikony_social">
+                    <p>
+                        <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="carousel_main_page" class="carousel slide" data-ride="scarousel">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel_main_page" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel_main_page" data-slide-to="1"></li>
+                <li data-target="#carousel_main_page" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="carousel_item_container background_1">
+                        <div class="overlay">
+                            <div class="slogan_container">
+                                <h1 class="slideanim">Jakość</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <a href="#">SZCZEGÓŁY</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel_item_container background_2">
+                        <div class="overlay">
+                            <div class="slogan_container">
+                                <h1 class="slideanim">Technologia</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <a href="#">SZCZEGÓŁY</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="carousel_item_container background_3">
+                        <div class="overlay">
+                            <div class="slogan_container">
+                                <h1 class="slideanim">Oszczędność</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <a href="#">SZCZEGÓŁY</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel_main_page" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel_main_page" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+
+        <div id="navbar_container">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-xs-12 col-lg-3 company_name">
+                        <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span>Dombud</a>
+                    </div>
+
+                    <div class="col-xs-12 col-lg-9">
+
+                        <!-- N A V B A R -->
+                        <nav class="navbar navbar-default">
+
+                            <div class="container-fluid">
+
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand show_xs_only" href="#"><span class="glyphicon glyphicon-home"></span>Dombud</a>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navbar1">
+
+                                    <ul class="nav navbar-nav navbar-right white_links">
+                                        <li class="active"><a href="index.html">start<span class="sr-only">(current)</span></a></li>
+                                        <li><a href="o_nas.html">kim jesteśmy</a></li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nasze realizacje<span class="caret"></span></a>
+                                            <ul class="dropdown-menu dropdown-menu-left">
+                                                <li><a href="realizacje_jednorodzinne.html">Domy jednorodzinne</a></li>
+                                                <li><a href="realizacje_wielorodzinne.html">Budynki wielorodzinne</a></li>
+                                                <li><a href="realizacje_inne.html">Inne obiekty</a></li>
+                                                <li><a href="realizacje.html">Wszystkie obiekty</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="oferta.html">Oferta</a></li>
+                                        <li><a href="kontakt.html">Kontakt</a></li>
+                                    </ul>
+                                    <div class="hidden-md hidden-lg" id="search_form_menu">
+                                        <hr>
+                                        <form class="form-inline">
+                                            <input type="text" class="form-control" id="search_input_2" placeholder="wyszukaj...">
+                                            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>&nbsp;</button>
+                                        </form>
+                                    </div>
+
+                                </div>
+                                <!-- /.navbar-collapse -->
+
+
+                            </div>
+                            <!-- / .container -->
+                        </nav>
+
+                    </div>
+                    <!-- / .col -->
+
+                </div>
+                <!-- / .row -->
+
+            </div>
+            <!-- / .container -->
+
+        </div>
+        <!-- / .navbar_container -->
+    </div>
+
+    <!-- / #top_page_container -->
+
+    <div class="container-fluid container_light">
+        <div class="container">
+            <section class="row">
+                <div class="col-xs-12 col-md-8">
+                    <h4>Witamy</h4>
+                    <p class="big">Sed eu aliquet lectus. Fusce imperdiet ut est sed venenatis. Sed nec ligula blandit, laoreet elit fermentum, varius felis. Integer eget enim eu eros congue dapibus. Ut ornare, ipsum ac dictum viverra, odio lorem tristique...</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis fermentum tortor, sagittis egestas nibh pharetra commodo. Proin pulvinar sollicitudin nunc, nec pulvinar nunc pulvinar at. Duis ac mollis lectus, blandit condimentum
+                        lacus. Sed eu aliquet lectus. Fusce imperdiet ut est sed venenatis. Sed nec ligula blandit, laoreet elit fermentum, varius felis. Integer eget enim eu eros congue dapibus. Ut ornare, ipsum ac dictum viverra, odio lorem tristique</p>
+                    <a href="#">czytaj więcej...</a>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="separator hidden-md hidden-lg"></div>
+                    <table class="podstawowa">
+                        <caption>Fakty i liczby</caption>
+                        <tr>
+                            <td>17</td>
+                            <td>lat doświadczenia</td>
+                        </tr>
+                        <tr>
+                            <td>150+</td>
+                            <td>zbudowanych domów</td>
+                        </tr>
+                        <tr>
+                            <td>97</td>
+                            <td>zatrudnionych pracowników</td>
+                        </tr>
+                        <tr>
+                            <td>2 mln+</td>
+                            <td>wykorzystanych cegieł i pustaków</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <div class="container-fluid container_dark">
+        <div class="container">
+            <section class="row">
+                <div class="col-xs-12">
+                    <h4 class="text-center">Nasze ostatnie realizacje</h4>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-4 col-md-3">
+                            <div class="project_container">
+                                <div class="project_front">
+                                    <img src="images/transparent.png" alt="project 1" class="project_1">
+                                </div>
+                                <div class="project_back rotate_y_180 project_1">
+                                    <p>Dom jednorodzinny w Kamionce<a href="#">czytaj więcej</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3">
+                            <div class="project_container">
+                                <div class="project_front">
+                                    <img src="images/transparent.png" alt="project 2" class="project_2">
+                                </div>
+                                <div class="project_back rotate_y_180 project_2">
+                                    <p>Dom jednorodzinny w Falenicy<a href="#">czytaj więcej</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-4 col-md-3">
+                            <div class="separator hidden-sm hidden-md hidden-lg"></div>
+                            <div class="project_container">
+                                <div class="project_front">
+                                    <img src="images/transparent.png" alt="project 3" class="project_3">
+                                </div>
+                                <div class="project_back rotate_y_180 project_3">
+                                    <p>Dom jednorodzinny w Oleśnicy<a href="#">czytaj więcej</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-md-3 hidden-sm">
+                            <div class="separator hidden-md hidden-lg"></div>
+                            <div class="project_container">
+                                <div class="project_front">
+                                    <img src="images/transparent.png" alt="project 4" class="project_4">
+                                </div>
+                                <div class="project_back rotate_y_180 project_4">
+                                    <p>Dom jednorodzinny w Brzegu<a href="#">czytaj więcej</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#">co jeszcze zbudowaliśmy...</a>
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    <div class="container-fluid container_light">
+        <div class="container">
+            <section class="row" id="mozliwosci">
+                <div class="col-xs-12">
+                    <h4>Nasze możliwości</h4>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <p class="big"><span class="glyphicon glyphicon-time"></span>Lorem ipsum dolor sit amet</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna nisi, dapibus vitae lacus a, rutrum fringilla nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque
+                                Morbi eu leo non nisi ultricies pharetra vel sit amet massa. Curabitur blandit varius nisi, id tincidunt felis.
+                            </p>
+                            <a href="#">czytaj więcej...</a>
+
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="separator hidden-md hidden-lg"></div>
+                            <p class="big"><span class="glyphicon glyphicon-cog"></span>Maecenas ac efficitur sapien.</p>
+                            <p>Maecenas ac efficitur sapien. Praesent sollicitudin elit quis diam porta tempus sollicitudin quis sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam molestie condimentum
+                                Nullam molestie ante vitae sem condimentum, eget interdum lectus semper.</p>
+                            <a href="#">czytaj więcej...</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <div class="separator"></div>
+                            <p class="big"><span class="glyphicon glyphicon-briefcase"></span>Nunc mollis ut nulla nec molestie.</p>
+                            <p>Nunc mollis ut nulla nec molestie. Vivamus scelerisque, elit id suscipit vestibulum, lorem dui efficitur mi, sit amet vehicula mi sem a nunc. Praesent scelerisque, magna at sagittis iaculis, mi enim suscipit ex, vitae egestas
+                                . sit amet lacinia leo mollis. Pellentesque et ipsum sed massa iaculis tristique. </p>
+                            <a href="#">czytaj więcej...</a>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="separator"></div>
+                            <p class="big"><span class="glyphicon glyphicon-globe"></span>nam ultricies, lectus in dignissim varius.</p>
+                            <p>Nam ultricies, lectus in dignissim varius, arcu mi consequat lacus, iaculis sagittis dolor ante sit amet neque. Integer odio justo, consequat vel venenatis ut, semper quis velit. Cras nisl mi, tempus a turpis vitae, viverra
+                                Vestibulum venenatis bibendum varius. In sit amet dapibus ipsum, et tincidunt sapien.</p>
+                            <a href="#">czytaj więcej...</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="container">
+            <footer class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <a class="footer_brand" href="index.html"><span class="glyphicon glyphicon-home"></span>Dombud</a>
+                    <p>"Dombud" od 17 lat buduje domy wykorzystując najnowsze i najbardziej energooszczędne technologie w celu poprawy jakości życia swoich klientów</p>
+                    <p class="copyright">&copy; Copyright 2017</p>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-2">
+                    <h6>Nawigacja</h6>
+                    <ul>
+                        <li><a href="index.html">start</a></li>
+                        <li><a href="o_nas.html">kim jesteśmy</a></li>
+                        <li><a href="realizacje.html">nasze realizacje</a></li>
+                        <li><a href="oferta.html">oferta</a></li>
+                        <li><a href="kontakt.html">kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-2">
+                    <h6>Wsparcie</h6>
+                    <ul>
+                        <li><a href="#">kontakt z konsultantem</a></li>
+                        <li><a href="#">F.A.Q.</a></li>
+                        <li><a href="#">przed budową</a></li>
+                        <li><a href="#">baza wiedzy</a></li>
+                        <li><a href="#">sprawdź terminy</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-2">
+                    <h6>social media</h6>
+                    <ul>
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">twitter</a></li>
+                        <li><a href="#">instagram</a></li>
+                        <li><a href="#">youtube</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="js/local.js"></script>
+</body>
+
+</html>
